@@ -6,7 +6,7 @@ TenDigitPrimeCalculatorCSharp is a project to calculate the [Google billboard](h
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/TenDigitPrimeCalculatorCSharp.svg)](https://github.com/SeppPenner/TenDigitPrimeCalculatorCSharp/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/TenDigitPrimeCalculatorCSharp.svg)](https://github.com/SeppPenner/TenDigitPrimeCalculatorCSharp/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/TenDigitPrimeCalculatorCSharp.svg)](https://github.com/SeppPenner/TenDigitPrimeCalculatorCSharp/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/TenDigitPrimeCalculatorCSharp/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/TenDigitPrimeCalculatorCSharp/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/TenDigitPrimeCalculatorCSharp/badge.svg)](https://snyk.io/test/github/SeppPenner/TenDigitPrimeCalculatorCSharp)
 
 ## References
