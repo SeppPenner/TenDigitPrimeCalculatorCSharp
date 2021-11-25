@@ -1,6 +1,6 @@
 # TenDigitPrimeCalculatorCSharp
-TenDigitPrimeCalculatorCSharp is a project to calculate the [Google 10 digit prime number](https://mkaz.blog/math/google-billboard-problems/) from the Euler number in C# 5.0.
-TenDigitPrimeCalculatorCSharp is a project to calculate the [Google billboard](https://mkaz.blog/math/google-billboard-problems/) problem in C# 5.0.
+TenDigitPrimeCalculatorCSharp is a project to calculate the [Google 10 digit prime number](https://mkaz.blog/math/google-billboard-problems/) from the Euler number in C#.
+TenDigitPrimeCalculatorCSharp is a project to calculate the [Google billboard](https://mkaz.blog/math/google-billboard-problems/) problem in C#.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/tfsrpp2uvy2187l1?svg=true)](https://ci.appveyor.com/project/SeppPenner/tendigitprimecalculatorcsharp)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/TenDigitPrimeCalculatorCSharp.svg)](https://github.com/SeppPenner/TenDigitPrimeCalculatorCSharp/issues)
