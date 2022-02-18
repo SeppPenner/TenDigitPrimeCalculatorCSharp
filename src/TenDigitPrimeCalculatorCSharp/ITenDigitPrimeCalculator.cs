@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="ITenDigitPrimeCalculator.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,18 +7,16 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace TenDigitPrimeCalculatorCSharp
+namespace TenDigitPrimeCalculatorCSharp;
+
+/// <summary>
+///     An interface to calculate the Google billboard problem.
+/// </summary>
+public interface ITenDigitPrimeCalculator
 {
     /// <summary>
-    ///     An interface to calculate the Google billboard problem.
+    ///     Do the calculation.
     /// </summary>
-    public interface ITenDigitPrimeCalculator
-    {
-        /// <summary>
-        ///     Do the calculation.
-        /// </summary>
-        /// <returns>The solution to the Google billboard problem.</returns>
-        // ReSharper disable once UnusedMemberInSuper.Global
-        string CalculatePrimes();
-    }
+    /// <returns>The solution to the Google billboard problem.</returns>
+    string CalculatePrimes();
 }
