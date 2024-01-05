@@ -8,6 +8,9 @@ TenDigitPrimeCalculatorCSharp is a project to calculate the [Google billboard](h
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/TenDigitPrimeCalculatorCSharp.svg)](https://github.com/SeppPenner/TenDigitPrimeCalculatorCSharp/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/TenDigitPrimeCalculatorCSharp/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/TenDigitPrimeCalculatorCSharp/badge.svg)](https://snyk.io/test/github/SeppPenner/TenDigitPrimeCalculatorCSharp)
+[![Blogger](https://img.shields.io/badge/Follow_me_on-blogger-orange)](https://franzhuber23.blogspot.de/)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/SeppPennerOpenSourceDevelopment)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/th070795)
 
 ## References
 http://franzhuber23.blogspot.de/2017/10/google-10-digit-prime-in-eulers-number.html
