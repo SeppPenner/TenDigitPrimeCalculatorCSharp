@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenDigitPrimeCalculatorCSharp", "TenDigitPrimeCalculatorCSharp\TenDigitPrimeCalculatorCSharp.csproj", "{A32924EA-090E-4225-8DD8-EF4A83552035}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenDigitPrimeCalculatorCSharp.Tests", "TenDigitPrimeCalculatorCSharp.Tests\TenDigitPrimeCalculatorCSharp.Tests.csproj", "{DE4E70D7-F86E-4AAB-88B2-A9DD573A745E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A32924EA-090E-4225-8DD8-EF4A83552035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A32924EA-090E-4225-8DD8-EF4A83552035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A32924EA-090E-4225-8DD8-EF4A83552035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4E70D7-F86E-4AAB-88B2-A9DD573A745E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4E70D7-F86E-4AAB-88B2-A9DD573A745E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4E70D7-F86E-4AAB-88B2-A9DD573A745E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4E70D7-F86E-4AAB-88B2-A9DD573A745E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
