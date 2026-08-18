@@ -26,18 +26,17 @@ public class TenDigitPrimeCalculator : ITenDigitPrimeCalculator
     /// <summary>
     ///     Do the calculation.
     /// </summary>
-    /// <returns>The solution to the Google billboard problem.</returns>
+    /// <returns>The solution to the Google billboard problem, or an empty string if the digits hold no ten digit prime.</returns>
     /// <seealso cref="ITenDigitPrimeCalculator" />
     public string CalculatePrimes()
     {
         var start = 0;
-        var possiblePrime = string.Empty;
         const int Sequence = 10;
 
-        while (start <= EDigits.Length - 10)
+        while (start <= EDigits.Length - Sequence)
         {
-            Console.WriteLine("Start is: '" + start + "', End is: '" + Sequence + "'");
-            possiblePrime = EDigits.Substring(start, Sequence);
+            Console.WriteLine("Start is: '" + start + "', End is: '" + (start + Sequence - 1) + "'");
+            var possiblePrime = EDigits.Substring(start, Sequence);
             Console.WriteLine("Possible prime is: '" + possiblePrime + "'");
             var possiblePrimeAsLong = Convert.ToInt64(possiblePrime);
             var isValueAPrimeNumber = IsPrime(possiblePrimeAsLong);
@@ -52,17 +51,27 @@ public class TenDigitPrimeCalculator : ITenDigitPrimeCalculator
             start += 1;
         }
 
-        return possiblePrime;
+        return string.Empty;
     }
 
     /// <summary>
     /// Checks whether the value is a prime number or not.
     /// </summary>
-    /// <param name="n">The prime number.</param>
+    /// <param name="n">The value to check.</param>
     /// <returns><c>true</c> if the value is prime, <c>false</c> else.</returns>
     private static bool IsPrime(long n)
     {
-        if (n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0 || n % 11 == 0 || n % 13 == 0)
+        if (n < 2)
+        {
+            return false;
+        }
+
+        if (n == 2)
+        {
+            return true;
+        }
+
+        if (n % 2 == 0)
         {
             return false;
         }
